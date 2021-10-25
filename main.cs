@@ -15,7 +15,7 @@ class Employee
     {
         Console.WriteLine($"имя: {name}\n" +
                           $"возраст: {age}\n" +
-                          $"зп: ${salary}\n");
+                          $"зарплата: ${salary}\n");
     }
 }
 
@@ -37,7 +37,7 @@ class Janitor : Employee
         Console.WriteLine($"имя: {name}\n" +
                         $"возраст: {age}\n" +
                         $"зона работы: {area}\n" +
-                        $"зп: ${salary}");
+                        $"зарплата: ${salary}");
         Console.WriteLine($"завод: {zavod}\n");
     }
 }
@@ -56,7 +56,7 @@ class Worker : Employee
         Console.WriteLine("работник завода:");
         Console.WriteLine($"имя: {name}\n" +
                           $"возраст: {age}\n" +
-                          $"зп: ${salary}");
+                          $"зарплата: ${salary}");
         Console.WriteLine($"завод: {zavod}\n");
     }
 }
@@ -78,7 +78,7 @@ class Manager : Employee
         Console.WriteLine($"имя: {name}\n" +
                         $"возраст: {age}\n" +
                         $"права: {permission}\n" +
-                        $"зп: ${salary}");
+                        $"зарплата: ${salary}");
         Console.WriteLine($"завод: {zavod}\n");
     }
 }
